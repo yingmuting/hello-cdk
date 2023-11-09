@@ -1,0 +1,8 @@
+{
+  "app": "mvn -e -q compile exec:java",
+  "context": {
+    "@aws-cdk/aws-rds:lowercaseDbIdentifier": false,
+    "@aws-cdk/aws-apigateway:usagePlanKeyOrderInsensitiveId": false,
+    "@aws-cdk/core:stackRelativeExports": false
+  }
+}
